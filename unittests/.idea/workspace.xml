@@ -32,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web_unit_tests.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="web_unit_tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web_unit_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            <state relative-caret-position="68">
+              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="21" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -47,8 +47,20 @@
       <file leaf-file-name="test_runner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="68">
+              <caret line="4" column="58" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web_unit_tests_runner.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web_unit_tests_runner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -83,13 +95,14 @@
         <option value="$PROJECT_DIR$/calc.py" />
         <option value="$PROJECT_DIR$/utet_calc.py" />
         <option value="$PROJECT_DIR$/utest_calc.py" />
-        <option value="$PROJECT_DIR$/test_runner.py" />
         <option value="$PROJECT_DIR$/calc_tests.py" />
         <option value="$PROJECT_DIR$/web_unit_tests.py" />
+        <option value="$PROJECT_DIR$/test_runner.py" />
+        <option value="$PROJECT_DIR$/web_unit_tests_runner.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="542" />
     <option name="y" value="103" />
     <option name="width" value="683" />
@@ -130,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.web_unit_tests">
+  <component name="RunManager" selected="Python.web_unit_tests_runner">
     <configuration name="test_runner" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="unittests" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,18 +180,23 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Unittests in unittests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="web_unit_tests_runner" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="unittests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_unit_tests_runner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="Unittests in utest_calc.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="unittests" />
@@ -207,19 +225,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests in unittests" />
       <item itemvalue="Python tests.Unittests in utet_calc.py" />
       <item itemvalue="Python tests.Unittests in utest_calc.py" />
       <item itemvalue="Python.test_runner" />
       <item itemvalue="Python.web_unit_tests" />
+      <item itemvalue="Python.web_unit_tests_runner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.web_unit_tests_runner" />
         <item itemvalue="Python.web_unit_tests" />
         <item itemvalue="Python.test_runner" />
         <item itemvalue="Python tests.Unittests in utest_calc.py" />
         <item itemvalue="Python tests.Unittests in utet_calc.py" />
-        <item itemvalue="Python tests.Unittests in unittests" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +275,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3081991" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4889937" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4889937" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -372,16 +390,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utet_calc.py" />
-    <entry file="file://$PROJECT_DIR$/test_runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/calc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -411,8 +419,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web_unit_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        <state relative-caret-position="68">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="58" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_unit_tests_runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
